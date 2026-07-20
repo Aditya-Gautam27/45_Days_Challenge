@@ -1,116 +1,23 @@
-# 📅 Week 1 – Python Fundamentals & SQL Window Functions
+# 📅 Week 01 - Python & SQL Fundamentals
 
-Welcome to **Week 1** of my **45 Days Data Engineering & Python Interview Challenge**.
+Welcome to **Week 01** of my **45 Days Data Engineering Interview Challenge**.
 
-This week focuses on building a strong foundation in **advanced Python concepts** and **SQL window functions**, both of which are essential for Data Engineering, ETL, and Python Developer interviews.
-
----
-
-## 🎯 Week Objectives
-
-- Understand how Python decorators work internally.
-- Learn Higher-Order Functions and `functools.wraps`.
-- Build reusable decorators such as timing and retry decorators.
-- Master SQL Window Functions.
-- Practice solving SQL interview questions.
-- Improve problem-solving skills through coding exercises.
+This week focuses on building a strong foundation in **Python** and **SQL**, covering topics that are frequently asked in Data Engineering, Python Developer, and Data Analyst interviews.
 
 ---
 
-## 📚 Topics Covered
+# 🎯 Week Objectives
 
-### 🐍 Python
-
-- Decorators
-- Higher-Order Functions
-- `functools.wraps`
-- Decorators with Arguments
-- Stacking Decorators
-- Retry Decorator
-- Timing Decorator
-- Logging Basics
-
-### 🗄️ SQL
-
-- ROW_NUMBER()
-- RANK()
-- DENSE_RANK()
-- PARTITION BY
-- ORDER BY
-- Common Table Expressions (CTEs)
-- Latest Record Per Entity
-- Top N Records
-- Duplicate Removal
-- SQL Execution Order
+* Master Python fundamentals
+* Understand advanced Python concepts
+* Learn SQL Window Functions
+* Solve real interview questions
+* Build problem-solving skills
+* Write clean, interview-ready code
 
 ---
 
-## 📁 Daily Progress
-
-| Day | Topics | Status |
-|-----|--------|--------|
-| Day 01 | Python Decorators & SQL Window Functions | ✅ Completed |
-| Day 02 | Coming Soon | ⏳ |
-| Day 03 | Coming Soon | ⏳ |
-| Day 04 | Coming Soon | ⏳ |
-| Day 05 | Coming Soon | ⏳ |
-| Day 06 | Coming Soon | ⏳ |
-| Day 07 | Coming Soon | ⏳ |
-
----
-
-## 💻 Coding Practice
-
-### Python
-
-- Timing Decorator
-- Retry Decorator
-- Decorators with Parameters
-- Function Wrappers
-
-### SQL
-
-- Nth Highest Salary
-- Rank Scores
-- Latest Record Per Customer
-- Top 3 Salaries Per Department
-- Remove Duplicate Records
-- Window Function Practice
-
----
-
-## 🧠 Interview Questions Practiced
-
-### Python
-
-- What is a decorator?
-- Difference between a decorator and a higher-order function?
-- Why use `functools.wraps`?
-- Can decorators accept arguments?
-- What happens when multiple decorators are stacked?
-- How would you implement retry logic using decorators?
-
-### SQL
-
-- Difference between `ROW_NUMBER()`, `RANK()`, and `DENSE_RANK()`.
-- Latest record per entity.
-- Why can't window functions be used in a `WHERE` clause?
-- Window functions vs correlated subqueries.
-- When should you use `ROW_NUMBER()` instead of `GROUP BY`?
-
----
-
-## 📝 LeetCode Practice
-
-- ✅ 177. Nth Highest Salary
-- ✅ 178. Rank Scores
-- ⏳ 185. Department Top Three Salaries
-- ⏳ 1890. Latest Login in 2020
-- ⏳ Additional SQL Window Function Problems
-
----
-
-## 📂 Folder Structure
+# 📂 Folder Structure
 
 ```text
 Week_01/
@@ -119,60 +26,164 @@ Week_01/
 │
 ├── Day_01/
 │   ├── notes.md
-│   ├── sql_solutions.sql
 │   ├── python_solutions.py
-│   └── README.md
+│   └── sql_solutions.sql
 │
 ├── Day_02/
-├── Day_03/
-├── Day_04/
-├── Day_05/
-├── Day_06/
-└── Day_07/
+│   ├── notes.md
+│   ├── python_solutions.py
+│   └── sql_solutions.sql
+│
+└── ...
 ```
 
 ---
 
-## 🚀 Key Takeaways
+# 📅 Daily Progress
 
-By the end of Week 1, I aim to:
-
-- Understand decorators inside and out.
-- Write reusable Python code using decorators.
-- Confidently solve SQL window function problems.
-- Explain the differences between `ROW_NUMBER()`, `RANK()`, and `DENSE_RANK()`.
-- Solve "latest record" and "Top N" interview questions efficiently.
-- Strengthen my interview readiness for Data Engineering and ETL roles.
+| Day    | Python                                     | SQL                                                              | Status      |
+| ------ | ------------------------------------------ | ---------------------------------------------------------------- | ----------- |
+| Day 01 | Decorators, `functools.wraps`, Logging     | Window Functions, `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, CTEs | ✅ Completed |
+| Day 02 | Generators, `yield`, Generator Expressions | `LAG()`, `LEAD()`, Consecutive Rows, Gaps & Islands              | ✅ Completed |
 
 ---
 
-## 📖 Resources
+# 🐍 Python Topics Covered
+
+## ✅ Day 01
+
+* Decorators
+* Higher-order Functions
+* `functools.wraps`
+* Logging
+* Retry Decorator
+* Timing Decorator
+
+---
+
+## ✅ Day 02
+
+* Generators
+* `yield`
+* Infinite Fibonacci Generator
+* Generator Expressions
+* Lazy Evaluation
+* Generator vs List
+* Memory Optimization
+* Generator Interview Questions
+
+---
+
+# 🗄️ SQL Topics Covered
+
+## ✅ Day 01
+
+* Common Table Expressions (CTEs)
+* Window Functions
+* `ROW_NUMBER()`
+* `RANK()`
+* `DENSE_RANK()`
+* Latest Record Problems
+* Nth Highest Salary
+
+---
+
+## ✅ Day 02
+
+* `LAG()`
+* `LEAD()`
+* Consecutive Rows Pattern
+* Gaps & Islands Pattern
+* `ROW_NUMBER()` Grouping Trick
+* Human Traffic of Stadium (LeetCode 601)
+
+---
+
+# 💻 Problems Solved
+
+## SQL
+
+| Problem                    | Difficulty | Status |
+| -------------------------- | ---------- | ------ |
+| Nth Highest Salary         | Medium     | ✅      |
+| Immediate Food Delivery II | Medium     | ✅      |
+| Human Traffic of Stadium   | Hard       | ✅      |
+
+---
+
+## Python
+
+* Decorator Implementation
+* Retry Decorator
+* Timing Decorator
+* Infinite Fibonacci Generator
+* Generator Expression Examples
+
+---
+
+# 📚 Key Concepts Learned
 
 ### Python
 
-- Python Official Documentation
-- functools Documentation
-- Real Python
+* Decorators
+* `yield`
+* Lazy Evaluation
+* Generator Expressions
+* Memory-Efficient Programming
 
 ### SQL
 
-- LeetCode SQL 50
-- DataLemur
-- StrataScratch
-- SQLBolt
+* Window Functions
+* Ranking Functions
+* Consecutive Rows
+* Gaps & Islands
+* Analytical Queries
 
 ---
 
-## 📈 Weekly Progress
+# 📝 Interview Questions Practiced
 
-- [x] Python Decorators
-- [x] Higher-Order Functions
-- [x] `functools.wraps`
-- [x] SQL Window Functions
-- [ ] Advanced SQL Practice
-- [ ] Weekly Mini Project
-- [ ] Week 1 Review
+### Python
+
+* Generator vs Regular Function
+* `yield` vs `return`
+* How Generators Maintain State
+* Generator Expressions vs List Comprehensions
+* When to Use Generators
+
+### SQL
+
+* Difference between `ROW_NUMBER()`, `RANK()`, and `DENSE_RANK()`
+* Difference between `LAG()` and `LEAD()`
+* How to Detect Consecutive Rows
+* Why `id - ROW_NUMBER()` Works
+* Human Traffic of Stadium Solution
 
 ---
 
-> **"Small daily improvements lead to remarkable long-term results."** 🚀
+# 📈 Week 01 Progress
+
+* **Days Completed:** 2 / 7
+* **Python Topics Covered:** 8+
+* **SQL Topics Covered:** 10+
+* **SQL Problems Solved:** 3
+* **Python Exercises Completed:** 5+
+
+---
+
+# 🎯 Upcoming Topics
+
+* Iterators vs Generators
+* `itertools`
+* Context Managers
+* File Handling
+* Recursive CTEs
+* Query Optimization
+* Advanced SQL Window Functions
+* ETL Best Practices
+
+---
+
+## 🚀 Goal for Week 01
+
+By the end of this week, I aim to have a strong understanding of Python fundamentals, SQL analytical functions, and common interview problem-solving patterns that are essential for Data Engineering and Python development roles.
